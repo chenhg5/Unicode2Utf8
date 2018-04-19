@@ -49,7 +49,7 @@ class UnicodeToUtf8
 
         $this->workflow->result()
                     ->title($res)
-                    ->subtitle($res)
+                    ->subtitle('enter to copy')
                     ->arg($res)
                     ->icon('icon.png')
                     ->text('copy', $res);
